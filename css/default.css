@@ -1,0 +1,36 @@
+container{}
+#header{
+	height: 35px;
+	background: #444444;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+#header a{text-decoration: none;color: #FFFFFF;}
+#header a:visited{color: #FFFFFF;}
+#header span{
+	width: auto;
+	padding: 5px;
+	
+}
+bottom{}
+#leftside{
+	width: 20%;
+	background: white;
+	height: auto;
+	overflow: auto;
+	text-decoration: none;
+	text-transform: lowercase;
+	float: left;
+}
+#leftside a{text-decoration: none;color:#505050;}
+#leftside a:visited{color:#505050;}
+#rightside{
+	width: 80%;
+	background: #dcdcdc;
+	float: right;
+}
+.datatable{
+	border: solid;
+	margin-bottom: 10px;
+	text-align: center;
+}

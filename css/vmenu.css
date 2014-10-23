@@ -1,0 +1,87 @@
+/*
+    Document   : vmenu
+    Created on : 28-may-2009, 19:00:10
+    Author     : Richard
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/*
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+ul.menuV, ul ul {
+	background:white none repeat scroll 0 0;
+	border:0 none;
+	height:auto;
+	list-style-type:none;
+	margin:0;
+	overflow:hidden;
+	padding:0;
+	text-align:left;
+}
+ul.menuV table {
+	border-collapse:collapse;
+	font-size:1em;
+	margin:0;
+	padding:0;
+}
+ul.menuV ul {
+	margin-left:1em;
+}
+ul.menuV li {
+	text-indent:0.5em;
+}
+ul.menuV li.drop {
+margin-bottom:0;
+}
+ul.menuV li a, ul.menuV li a:visited {
+	display:block;
+	height:auto;
+	line-height:1.9em;
+	text-decoration:none;
+	width:auto;
+}
+ul.menuV li a.last, ul.menuV li a.last:visited {
+	display:block;
+	height:auto;
+	line-height:2em;
+	width:auto;
+}
+ul.menuV li ul {
+	display:none;
+}
+ul.menuV li:hover a, ul.menuV li a:hover {
+	border:0 none;
+	font-weight:bold;
+}
+ul.menuV li:hover ul, ul.menuV li a:hover ul {
+	background:white none repeat scroll 0 0;
+	display:block;
+	height:auto;
+	margin-top:0;
+	width:auto;
+}
+ul.menuV li:hover ul li a, ul.menuV li a:hover ul li a {
+	background:white none repeat scroll 0 0;
+	color:black;
+	font-weight:normal;
+	height:auto;
+}
+ul.menuV li:hover ul li:hover a, ul.menuV li a:hover ul li a:hover {
+	background:white none repeat scroll 0 0;
+	color:black;
+	font-weight:bold;
+}
+.menuitem {
+	background-color:white;
+	background-repeat:no-repeat;
+	display:block;
+	text-decoration:none;
+	width:auto;
+	vertical-align:middle;
+}
+.imgicon{
+	float:left;padding-top:8px;
+}
